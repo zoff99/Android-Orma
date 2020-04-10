@@ -7,8 +7,8 @@ group = metadata.groupId
 version = metadata.version
 
 bintray {
-    user = findProperty('bintrayUser')
-    key = findProperty('bintrayKey')
+    user = "$System.env.bintrayUser"
+    key = "$System.env.bintrayKey"
     configurations = ['archives']
     publish = true
     pkg {
