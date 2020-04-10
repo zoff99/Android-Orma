@@ -1,6 +1,6 @@
 ext {
     metadata = [
-            userOrg: 'orma', // https://bintray.com/orma
+            userOrg: 'zoff99', // https://bintray.com/zoff99
             groupId   : 'com.github.maskarade.android.orma',
             website   : 'https://github.com/maskarade/Android-Orma',
             repository: 'https://github.com/maskarade/Android-Orma.git',
