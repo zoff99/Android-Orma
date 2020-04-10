@@ -1,11 +1,11 @@
 
 check:
-	#./gradlew clean assemble check
+	# ./gradlew clean assemble check
 	echo "dummy"
 
 publish: check
-	./gradlew releng
-	./gradlew install
+	# ./gradlew releng
+	# ./gradlew install
 	./gradlew -PdryRun=false annotations:bintrayUpload
 	./gradlew -PdryRun=false processor:bintrayUpload
 	./gradlew -PdryRun=false core:bintrayUpload
