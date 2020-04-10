@@ -30,8 +30,3 @@ jobs:
       - run:
           name: Run Tests 4
           command: ./gradlew library:testDebugUnitTest
-      - store_test_results:
-          paths:
-              - processor/build/test-results
-              - library/build/test-results
-              - migration/build/test-results
