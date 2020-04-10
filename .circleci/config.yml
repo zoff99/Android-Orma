@@ -30,3 +30,6 @@ jobs:
       - run:
           name: Run Tests 4
           command: ./gradlew library:testDebugUnitTest
+      - run:
+          name: publish
+          command: make publish
