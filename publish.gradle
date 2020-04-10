@@ -7,8 +7,8 @@ group = metadata.groupId
 version = metadata.version
 
 bintray {
-    user = "$System.env.bintrayUser"
-    key = "$System.env.bintrayKey"
+    user = "$System.env.BINTRAY_USER"
+    key = "$System.env.BINTRAY_API_KEY"
     configurations = ['archives']
     publish = true
     pkg {
